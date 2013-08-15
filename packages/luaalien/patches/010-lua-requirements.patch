@@ -1,0 +1,12 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -37,9 +37,7 @@
+ AC_CHECK_HEADERS([stdint.h])
+ 
+ dnl Lua 5.1
+-AX_PROG_LUA(501, 503)
+ AX_LUA_HEADERS
+-AX_LUA_HEADERS_VERSION(501, 503)
+ AC_SUBST(LUA)
+ AC_SUBST(LUA_INCLUDE)
+
